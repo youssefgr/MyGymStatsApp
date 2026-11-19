@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Shown in the tile picker: the plate on black. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@android:color/black" />
+            <size
+                android:width="192dp"
+                android:height="192dp" />
+        </shape>
+    </item>
+    <item
+        android:bottom="56dp"
+        android:drawable="@drawable/ic_launcher_foreground"
+        android:left="56dp"
+        android:right="56dp"
+        android:top="56dp" />
+</layer-list>

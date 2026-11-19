@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Same values as the phone's ui/theme/Color.kt, for resources drawn outside Compose. -->
+    <color name="charcoal">#FF15120F</color>
+    <color name="fonte">#FFFF5A1F</color>
+</resources>

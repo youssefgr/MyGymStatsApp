@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The Fonte plate cropped to its bounds: in-app logo (tinted in Compose) and notification small icon. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="60"
+    android:viewportHeight="60">
+    <group
+        android:translateX="-24"
+        android:translateY="-24">
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:fillType="evenOdd"
+            android:pathData="M54,24 A30,30 0 1,1 54,84 A30,30 0 1,1 54,24 Z M54,35.5 A18.5,18.5 0 1,1 54,72.5 A18.5,18.5 0 1,1 54,35.5 Z M54,39 A15,15 0 1,1 54,69 A15,15 0 1,1 54,39 Z M54,47.5 A6.5,6.5 0 1,1 54,60.5 A6.5,6.5 0 1,1 54,47.5 Z M48.5,27.5 H59.5 A2.5,2.5 0 0,1 59.5,32.5 H48.5 A2.5,2.5 0 0,1 48.5,27.5 Z M48.5,75.5 H59.5 A2.5,2.5 0 0,1 59.5,80.5 H48.5 A2.5,2.5 0 0,1 48.5,75.5 Z" />
+    </group>
+</vector>

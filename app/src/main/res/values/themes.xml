@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark window background avoids a white flash before Compose draws. -->
+    <style name="Theme.MyGymStatsApp" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/charcoal</item>
+        <item name="android:colorAccent">@color/fonte</item>
+        <!-- Launch screen (Android 12+): the Fonte plate spinning in on cast iron. -->
+        <item name="android:windowSplashScreenBackground">@color/charcoal</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_mark</item>
+        <item name="android:windowSplashScreenAnimationDuration">650</item>
+    </style>
+</resources>

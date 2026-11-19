@@ -1,0 +1,109 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="fr">
+    <string name="app_name">Fonte</string>
+
+    <!-- Home -->
+    <string name="home_next">PROCHAINE SÉANCE</string>
+    <string name="home_sessions">Séances</string>
+    <string name="home_empty_workout">Séance vide</string>
+    <string name="home_history">Historique</string>
+    <string name="home_records">Records</string>
+    <string name="home_no_phone_title">Téléphone hors de portée</string>
+    <string name="home_no_phone">Tes données restent sur le téléphone. Rapproche-le pour lancer une séance.</string>
+    <string name="home_waiting">Ouvre Fonte sur ton téléphone pour synchroniser la montre.</string>
+    <string name="home_in_progress">SÉANCE EN COURS</string>
+    <string name="home_resume">Reprendre</string>
+
+    <!-- Workout -->
+    <string name="workout_set">Série %1$d</string>
+    <string name="workout_warmup">Échauffement</string>
+    <string name="workout_drop">Drop set</string>
+    <string name="workout_failure">Échec</string>
+    <string name="workout_superset">SUPERSET %1$s</string>
+    <string name="workout_previous">Précédent %1$s</string>
+    <string name="workout_validate">Valider</string>
+    <string name="workout_exercise_done">Exercice bouclé</string>
+    <string name="workout_add_set">Ajouter une série</string>
+    <string name="workout_finish">Terminer</string>
+    <string name="workout_finish_title">Terminer la séance ?</string>
+    <string name="workout_sets_done">%1$d/%2$d séries validées</string>
+    <string name="workout_heart_rate">Suivre le cœur</string>
+    <string name="workout_heart_rate_hint">Fonte lit ta fréquence cardiaque pendant la séance et te prévient à la fin du repos.</string>
+    <string name="cd_edit_weight">Modifier la charge</string>
+    <string name="cd_edit_reps">Modifier les reps</string>
+    <string name="cd_edit_duration">Modifier la durée</string>
+    <string name="cd_heart_rate">Fréquence cardiaque</string>
+    <string name="unit_reps">reps</string>
+
+    <!-- Rest -->
+    <string name="rest_label">REPOS</string>
+    <string name="rest_paused">REPOS · EN PAUSE</string>
+    <string name="rest_over">Repos terminé</string>
+    <string name="rest_skip">Passer</string>
+    <string name="rest_next_set">Série suivante</string>
+    <string name="cd_rest_minus">Moins 15 secondes</string>
+    <string name="cd_rest_plus">Plus 15 secondes</string>
+    <string name="cd_rest_pause">Pause</string>
+    <string name="cd_rest_resume">Reprendre</string>
+
+    <!-- Value editor -->
+    <string name="edit_weight">Charge</string>
+    <string name="edit_reps">Reps</string>
+    <string name="edit_duration">Durée</string>
+    <string name="edit_ok">OK</string>
+    <string name="cd_decrease">Moins</string>
+    <string name="cd_increase">Plus</string>
+
+    <!-- Messages from the phone -->
+    <string name="msg_needs_reps">Entre le nombre de reps</string>
+    <string name="msg_needs_duration">Entre une durée</string>
+    <string name="msg_finish_needs_set">Valide au moins une série avant de terminer.</string>
+    <string name="msg_start_refused">Une séance est déjà en cours.</string>
+    <string name="msg_phone_unreachable">Téléphone injoignable</string>
+    <string name="record_title">NOUVEAU RECORD</string>
+
+    <!-- Summary -->
+    <string name="summary_title">SÉANCE BOUCLÉE</string>
+    <string name="summary_cheer_record">Nouveau record. La barre monte.</string>
+    <string name="summary_cheer">La fonte a parlé.</string>
+    <string name="label_duration">Durée</string>
+    <string name="label_volume">Volume</string>
+    <string name="label_sets">Séries</string>
+    <string name="label_heart_rate_avg">FC moy.</string>
+    <string name="label_heart_rate_max">FC max</string>
+    <string name="value_bpm">%1$d bpm</string>
+
+    <!-- History and records -->
+    <string name="history_empty">Aucune séance au compteur.</string>
+    <string name="records_empty">Pas encore de record. Tes meilleures barres s\'afficheront ici.</string>
+    <string name="record_max_weight">Charge max</string>
+    <string name="record_one_rm">1RM estimé</string>
+    <string name="record_max_reps">Répétitions max</string>
+    <string name="record_volume">Volume max</string>
+    <string name="record_one_rm_value">1RM ≈ %1$s</string>
+    <string name="record_max_value">Max %1$s</string>
+    <string name="today">Aujourd\'hui</string>
+    <string name="yesterday">Hier</string>
+    <string name="duration_minutes">%1$d min</string>
+    <string name="duration_hours">%1$d h %2$s</string>
+    <string name="value_reps">%1$d reps</string>
+    <plurals name="count_sets">
+        <item quantity="one">%1$d série</item>
+        <item quantity="many">%1$d séries</item>
+        <item quantity="other">%1$d séries</item>
+    </plurals>
+    <plurals name="count_exercises">
+        <item quantity="one">%1$d exercice</item>
+        <item quantity="many">%1$d exercices</item>
+        <item quantity="other">%1$d exercices</item>
+    </plurals>
+
+    <!-- Ongoing workout, rest alert -->
+    <string name="channel_workout">Séance en cours</string>
+    <string name="notification_workout">Séance en cours</string>
+
+    <!-- Tile -->
+    <string name="tile_label">Fonte</string>
+    <string name="tile_description">Ta prochaine séance, ou le repos en cours.</string>
+    <string name="tile_start">Démarrer</string>
+    <string name="tile_open">Ouvrir</string>
+</resources>

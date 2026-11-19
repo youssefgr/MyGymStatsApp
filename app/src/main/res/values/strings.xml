@@ -1,0 +1,527 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="fr">
+    <string name="app_name">Fonte</string>
+
+    <!-- Common actions -->
+    <string name="action_finish">Terminer</string>
+    <string name="action_save">Enregistrer</string>
+    <string name="action_cancel">Annuler</string>
+    <string name="action_close">Fermer</string>
+    <string name="action_remove">Retirer</string>
+    <string name="action_delete">Supprimer</string>
+    <string name="action_edit">Modifier</string>
+    <string name="action_apply">Appliquer</string>
+    <string name="action_skip">Passer</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_resume">Reprendre</string>
+    <string name="action_discard">Abandonner</string>
+    <string name="action_back">Retour</string>
+    <string name="action_start">Démarrer</string>
+    <string name="action_options">Options</string>
+    <string name="action_clear">Effacer</string>
+
+    <!-- Common labels -->
+    <string name="label_volume">Volume</string>
+    <string name="label_sets">Séries</string>
+    <string name="label_exercises">Exercices</string>
+    <string name="label_duration">Durée</string>
+    <string name="label_workouts">Séances</string>
+    <string name="label_heart_rate_avg">FC moyenne</string>
+    <string name="label_heart_rate_max">FC max</string>
+    <string name="value_bpm">%1$d bpm</string>
+    <string name="cd_heart_rate">Fréquence cardiaque mesurée par la montre</string>
+    <string name="value_reps">%1$d reps</string>
+    <string name="value_minutes">%1$s min</string>
+    <string name="today">Aujourd\'hui</string>
+    <string name="yesterday">Hier</string>
+    <string name="duration_minutes">%1$d min</string>
+    <string name="duration_hours">%1$d h %2$s</string>
+
+    <!-- Muscle groups -->
+    <string name="muscle_chest">Pectoraux</string>
+    <string name="muscle_back">Dos</string>
+    <string name="muscle_shoulders">Épaules</string>
+    <string name="muscle_biceps">Biceps</string>
+    <string name="muscle_triceps">Triceps</string>
+    <string name="muscle_legs">Jambes</string>
+    <string name="muscle_glutes">Fessiers</string>
+    <string name="muscle_calves">Mollets</string>
+    <string name="muscle_abs">Abdos</string>
+    <string name="muscle_forearms">Avant-bras</string>
+    <string name="muscle_cardio">Cardio</string>
+
+    <!-- Equipment -->
+    <string name="equipment_barbell">Barre</string>
+    <string name="equipment_dumbbell">Haltères</string>
+    <string name="equipment_ez_bar">Barre EZ</string>
+    <string name="equipment_cable">Poulie</string>
+    <string name="equipment_machine">Machine</string>
+    <string name="equipment_smith_machine">Smith machine</string>
+    <string name="equipment_kettlebell">Kettlebell</string>
+    <string name="equipment_bodyweight">Poids du corps</string>
+    <string name="equipment_band">Élastique</string>
+    <string name="equipment_cardio_machine">Machine cardio</string>
+    <string name="equipment_other">Autre</string>
+
+    <!-- Tracking types, set types, goals, themes, records -->
+    <string name="tracking_weight_reps">Charge × répétitions</string>
+    <string name="tracking_reps_only">Répétitions seules</string>
+    <string name="tracking_duration">Durée</string>
+    <string name="set_type_warmup">Échauffement</string>
+    <string name="set_type_normal">Normale</string>
+    <string name="set_type_drop">Drop set</string>
+    <string name="set_type_failure">Échec</string>
+    <string name="goal_muscle_gain">Prise de muscle</string>
+    <string name="goal_strength">Force</string>
+    <string name="goal_fat_loss">Perte de gras</string>
+    <string name="goal_general_fitness">Forme générale</string>
+    <string name="theme_dark">Sombre</string>
+    <string name="theme_light">Clair</string>
+    <string name="theme_system">Système</string>
+    <string name="record_max_weight">Charge max</string>
+    <string name="record_one_rm">1RM estimé</string>
+    <string name="record_max_reps">Répétitions max</string>
+    <string name="record_volume">Volume max</string>
+
+    <!-- Default workout names -->
+    <string name="workout_name_morning">Séance du matin</string>
+    <string name="workout_name_afternoon">Séance de l\'après-midi</string>
+    <string name="workout_name_evening">Séance du soir</string>
+
+    <!-- Active workout -->
+    <string name="cd_minimize">Réduire</string>
+    <string name="cd_rest_timer">Minuteur de repos</string>
+    <string name="cd_exercise_options">Options de l\'exercice</string>
+    <string name="action_add_exercises">Ajouter des exercices</string>
+    <string name="action_add_set">Ajouter une série</string>
+    <string name="action_discard_workout">Abandonner la séance</string>
+    <string name="dialog_finish_title">Terminer la séance ?</string>
+    <string name="dialog_finish_no_sets">Aucune série n\'est validée. Valide tes séries avec ✓ avant de terminer.</string>
+    <plurals name="dialog_finish_pending">
+        <item quantity="one">%1$d série non validée sera ignorée.</item>
+        <item quantity="many">%1$d séries non validées seront ignorées.</item>
+        <item quantity="other">%1$d séries non validées seront ignorées.</item>
+    </plurals>
+    <string name="dialog_finish_ok">Bravo ! Ta séance va être enregistrée dans l\'historique.</string>
+    <string name="dialog_discard_title">Abandonner la séance ?</string>
+    <string name="dialog_discard_message">Toutes les séries de cette séance seront supprimées.</string>
+    <string name="exercise_target">Objectif %1$s reps</string>
+    <string name="exercise_rest">Repos %1$s</string>
+    <string name="exercise_no_rest_superset">Enchaîne sans repos</string>
+    <string name="rest_none">aucun</string>
+    <string name="rest_default">Par défaut (%1$s)</string>
+    <string name="menu_rest_time">Temps de repos</string>
+    <string name="menu_add_warmups">Ajouter l\'échauffement</string>
+    <string name="menu_superset_link">Superset avec l\'exercice suivant</string>
+    <string name="menu_superset_unlink">Retirer du superset</string>
+    <string name="menu_move_up">Monter</string>
+    <string name="menu_move_down">Descendre</string>
+    <string name="menu_remove_exercise">Retirer l\'exercice</string>
+    <string name="menu_replace_exercise">Remplacer l\'exercice</string>
+    <string name="library_replace_title">Remplacer par…</string>
+    <string name="superset_chain">SUPERSET %1$s · enchaîne avec l\'exercice suivant</string>
+    <string name="superset_rest_after">SUPERSET %1$s · repos après cet exercice</string>
+    <string name="dialog_rest_title">Repos · %1$s</string>
+    <string name="dialog_remove_exercise_title">Retirer %1$s ?</string>
+    <string name="dialog_remove_exercise_message">Les séries de cet exercice seront supprimées de la séance.</string>
+    <string name="workout_notes_label">Notes de séance</string>
+    <string name="workout_notes_hint">Sensations, réglages, douleurs…</string>
+    <string name="record_new">NOUVEAU RECORD</string>
+    <string name="dialog_rename_title">Nom de la séance</string>
+    <string name="msg_enter_reps">Indique les répétitions avant de valider la série</string>
+    <string name="msg_enter_duration">Indique la durée avant de valider la série</string>
+    <string name="msg_finish_needs_set">Valide au moins une série pour terminer la séance</string>
+
+    <!-- Sets -->
+    <string name="set_header_set">SÉRIE</string>
+    <string name="set_header_previous">PRÉCÉDENT</string>
+    <string name="set_header_reps">REPS</string>
+    <string name="set_header_min">MIN</string>
+    <string name="cd_set_done">Série validée</string>
+    <string name="cd_set_validate">Valider la série</string>
+    <string name="set_rpe">RPE %1$s</string>
+    <string name="set_add_rpe">Ajouter un RPE</string>
+    <string name="set_delete">Supprimer la série</string>
+    <string name="dialog_rpe_title">RPE de la série</string>
+    <string name="rpe_none">Aucun</string>
+
+    <!-- Rest timer -->
+    <string name="rest_label">REPOS</string>
+    <string name="rest_paused_label">REPOS · EN PAUSE</string>
+    <string name="rest_sheet_hint">Le minuteur démarre aussi automatiquement à chaque série validée. Durée par défaut : %1$s (modifiable dans le profil).</string>
+    <string name="channel_rest_running">Minuteur de repos</string>
+    <string name="channel_rest_finished">Fin du repos</string>
+    <string name="notification_rest_title">Repos en cours</string>
+    <string name="notification_rest_paused">En pause · %1$s restantes</string>
+    <string name="notification_rest_finished_title">Repos terminé</string>
+    <string name="notification_rest_finished_text">À la barre : série suivante.</string>
+
+    <!-- Records -->
+    <string name="record_desc_weight">%1$s × %2$d (+%3$s)</string>
+    <string name="record_desc_one_rm_set">%1$s × %2$d · 1RM ≈ %3$s (+%4$s)</string>
+    <string name="record_desc_one_rm">1RM ≈ %1$s (+%2$s)</string>
+    <string name="record_desc_reps">%1$d reps (+%2$d)</string>
+    <string name="record_desc_volume">Volume %1$s (+%2$s)</string>
+
+    <!-- Program editor -->
+    <string name="template_new_title">Nouvelle séance</string>
+    <string name="template_edit_title">Modifier la séance</string>
+    <string name="template_start">COMMENCER</string>
+    <string name="template_name_label">Nom de la séance</string>
+    <string name="template_name_hint">Push Day</string>
+    <string name="template_name_error">Donne un nom à la séance</string>
+    <string name="template_notes_label">Notes (optionnel)</string>
+    <string name="template_exercises_header">Exercices (%1$d)</string>
+    <string name="template_empty_title">Aucun exercice</string>
+    <string name="template_empty_message">Ajoute les exercices de cette séance depuis la bibliothèque.</string>
+    <string name="template_add_exercise">Ajouter un exercice</string>
+    <string name="label_reps_range">Répétitions</string>
+    <string name="cd_less">Moins</string>
+    <string name="cd_more">Plus</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Accueil</string>
+    <string name="nav_programs">Programmes</string>
+    <string name="nav_progress">Progression</string>
+    <string name="nav_profile">Profil</string>
+    <string name="banner_workout_in_progress">Séance en cours · %1$s</string>
+    <string name="banner_open_workout">Ouvrir la séance</string>
+    <string name="action_ok">OK</string>
+    <string name="action_allow">Autoriser</string>
+
+    <!-- Workout detail -->
+    <string name="detail_rename">Renommer</string>
+    <string name="detail_timing">Date et durée</string>
+    <string name="detail_repeat">Refaire cette séance</string>
+    <string name="detail_notes">Notes</string>
+    <string name="detail_add_note">Ajouter une note…</string>
+    <string name="detail_one_rm">1RM ≈ %1$s</string>
+    <string name="detail_exercise_volume">Volume : %1$s</string>
+    <string name="detail_edit_set_title">Modifier la série</string>
+    <string name="detail_weight_label">Charge (%1$s)</string>
+    <string name="detail_delete_title">Supprimer la séance ?</string>
+    <string name="detail_delete_message">Elle sera retirée de l\'historique, des statistiques et des records. Action définitive.</string>
+    <string name="timing_duration_label">Durée (min)</string>
+    <string name="timing_start_time">Heure de début</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_title">Bienvenue chez %1$s</string>
+    <string name="onboarding_subtitle">Trois questions pour régler ta barre. Tu pourras tout changer dans le profil.</string>
+    <string name="onboarding_name_label">Prénom</string>
+    <string name="onboarding_start">C\'EST PARTI</string>
+    <string name="onboarding_skip">Passer</string>
+
+    <!-- Profile -->
+    <string name="profile_athlete">Athlète</string>
+    <string name="profile_total_volume">Volume total</string>
+    <string name="profile_information">Informations</string>
+    <string name="profile_body_weight">Poids (%1$s)</string>
+    <string name="profile_height">Taille (cm)</string>
+    <string name="profile_goal">Objectif</string>
+    <string name="profile_units">Unités</string>
+    <string name="unit_kilograms">Kilogrammes (kg)</string>
+    <string name="unit_pounds">Livres (lb)</string>
+    <string name="profile_training">Entraînement</string>
+    <string name="profile_rest">Repos par défaut</string>
+    <string name="profile_rest_hint">Utilisé quand un exercice n\'a pas de repos défini dans la séance.</string>
+    <string name="profile_increment">Palier de charge par défaut</string>
+    <string name="profile_increment_hint">Utilisé par la surcharge progressive, sauf pour les exercices qui ont leur propre palier.</string>
+    <string name="profile_auto_warmup">Échauffement automatique</string>
+    <string name="profile_auto_warmup_hint">3 séries progressives sur le premier exercice, 1 série légère sur les suivants.</string>
+    <string name="profile_notifications">Notifications</string>
+    <string name="profile_notifications_on">Autorisées : le compte à rebours et la fin du repos s\'affichent même app fermée.</string>
+    <string name="profile_notifications_off">Désactivées : aucune alerte de fin de repos quand l\'app est en arrière-plan.</string>
+    <string name="profile_exact_alarm">Alarme précise</string>
+    <string name="profile_exact_on">Activée : l\'alerte sonne à la seconde près.</string>
+    <string name="profile_exact_off">Désactivée : Android peut retarder l\'alerte de fin de repos.</string>
+    <string name="profile_appearance">Apparence</string>
+    <string name="profile_about">Données stockées uniquement sur cet appareil.</string>
+
+    <!-- Counts -->
+    <plurals name="count_sets">
+        <item quantity="one">%1$d série</item>
+        <item quantity="many">%1$d séries</item>
+        <item quantity="other">%1$d séries</item>
+    </plurals>
+    <plurals name="count_exercises">
+        <item quantity="one">%1$d exercice</item>
+        <item quantity="many">%1$d exercices</item>
+        <item quantity="other">%1$d exercices</item>
+    </plurals>
+    <plurals name="count_workouts">
+        <item quantity="one">%1$d séance</item>
+        <item quantity="many">%1$d séances</item>
+        <item quantity="other">%1$d séances</item>
+    </plurals>
+
+    <!-- Home -->
+    <string name="home_start_workout">COMMENCER UNE SÉANCE</string>
+    <string name="home_last_workout">Dernière séance</string>
+    <string name="home_quick_start">Démarrage rapide</string>
+    <string name="home_recent">Séances récentes</string>
+    <string name="home_see_all">Tout voir</string>
+    <string name="home_welcome_title">Première séance ?</string>
+    <string name="home_welcome_message">Lance-la : ton volume, ton historique et tes records s\'afficheront ici.</string>
+    <string name="home_hello">Salut</string>
+    <string name="home_hello_name">Salut %1$s</string>
+    <string name="home_workout_in_progress">SÉANCE EN COURS</string>
+    <string name="home_this_week">Cette semaine</string>
+    <string name="home_total_time">Temps total</string>
+    <string name="home_see_workout">Voir la séance</string>
+
+    <!-- Workouts tab -->
+    <string name="workouts_library">Bibliothèque d\'exercices</string>
+    <string name="workouts_tab_programs">Programmes</string>
+    <string name="workouts_tab_history">Historique</string>
+    <string name="workouts_empty_workout">Séance vide</string>
+    <string name="workouts_empty_workout_hint">Exercices au fil de l\'eau</string>
+    <string name="programs_new_session_hint">Une liste d\'exercices</string>
+    <string name="workouts_my_programs">Mes programmes</string>
+    <string name="workouts_no_program_title">Aucun programme</string>
+    <string name="workouts_no_program_message">Un programme regroupe tes séances de la semaine. Crée le tien ou laisse Fonte le construire.</string>
+    <plurals name="workouts_more_exercises">
+        <item quantity="one">+ %1$d autre exercice</item>
+        <item quantity="many">+ %1$d autres exercices</item>
+        <item quantity="other">+ %1$d autres exercices</item>
+    </plurals>
+    <string name="session_delete_title">Supprimer « %1$s » ?</string>
+    <string name="session_delete_message">La séance sera supprimée. Les séances déjà réalisées restent dans l\'historique.</string>
+
+    <!-- Start workout -->
+    <string name="launcher_active_title">Séance en cours</string>
+    <string name="launcher_active_message">Une séance est déjà en cours. Tu peux la reprendre, ou l\'abandonner pour en commencer une nouvelle.</string>
+    <string name="launcher_replace">Abandonner et démarrer</string>
+    <string name="launcher_sheet_title">Commencer une séance</string>
+    <string name="launcher_empty_hint">Ajoute tes exercices au fur et à mesure</string>
+    <string name="launcher_create_program">Créer une séance</string>
+
+    <!-- Exercise library -->
+    <string name="exercise_new">Nouvel exercice</string>
+    <string name="exercise_edit">Modifier l\'exercice</string>
+    <plurals name="library_add_count">
+        <item quantity="one">Ajouter %1$d exercice</item>
+        <item quantity="many">Ajouter %1$d exercices</item>
+        <item quantity="other">Ajouter %1$d exercices</item>
+    </plurals>
+    <string name="library_empty_message">Aucun exercice ne correspond. Crée le tien en quelques secondes.</string>
+    <string name="library_create">Créer un exercice</string>
+    <string name="library_search">Rechercher un exercice</string>
+    <string name="library_filter_all">Tous</string>
+    <string name="library_filter_favorites">Favoris</string>
+    <string name="library_custom">Perso</string>
+    <string name="library_favorite">Favori</string>
+    <string name="library_builtin">Exercice de la bibliothèque</string>
+    <string name="library_delete_title">Supprimer l\'exercice ?</string>
+    <string name="library_delete_message">Il disparaîtra de la bibliothèque et de tes séances. Les séances passées restent intactes.</string>
+
+    <!-- Exercise editor -->
+    <string name="exercise_name">Nom</string>
+    <string name="exercise_name_hint">Cable Chest Press</string>
+    <string name="exercise_name_error">Donne un nom à l\'exercice</string>
+    <string name="exercise_muscle_group">Groupe musculaire</string>
+    <string name="exercise_equipment">Équipement</string>
+    <string name="exercise_tracking">Suivi</string>
+    <string name="exercise_description">Description</string>
+    <string name="exercise_description_hint">Consignes d\'exécution, réglages machine…</string>
+
+    <!-- History -->
+    <string name="history_period_all">Toutes les dates</string>
+    <string name="history_period_week">7 derniers jours</string>
+    <string name="history_period_month">30 derniers jours</string>
+    <string name="history_period_quarter">3 derniers mois</string>
+    <string name="history_period_year">Dernière année</string>
+    <string name="history_duration_any">Toutes durées</string>
+    <string name="history_duration_short">Moins de 45 min</string>
+    <string name="history_duration_medium">45 à 75 min</string>
+    <string name="history_duration_long">Plus de 75 min</string>
+    <string name="history_filter_date">Date</string>
+    <string name="history_filter_workout">Séance</string>
+    <string name="history_filter_muscle">Muscle</string>
+    <string name="history_all_workouts">Toutes les séances</string>
+    <string name="history_all_muscles">Tous les muscles</string>
+    <string name="history_no_result">Aucun résultat</string>
+    <string name="history_no_result_message">Aucune séance ne correspond à ces filtres.</string>
+    <string name="history_empty_title">Aucune séance au compteur</string>
+    <string name="history_empty_message">Termine ta première séance : elle s\'affichera ici.</string>
+
+    <!-- Workout summary -->
+    <string name="summary_title">SÉANCE BOUCLÉE</string>
+    <string name="summary_details">Détail</string>
+    <string name="records_title">Records personnels</string>
+
+    <!-- Progress -->
+    <string name="range_1m">1M</string>
+    <string name="range_3m">3M</string>
+    <string name="range_6m">6M</string>
+    <string name="range_1y">1A</string>
+    <string name="range_all">Tout</string>
+    <string name="metric_reps">Reps max</string>
+    <string name="metric_frequency">Fréquence</string>
+    <string name="value_reps_decimal">%1$s reps</string>
+    <string name="progress_tab_stats">Statistiques</string>
+    <string name="progress_empty_title">Rien à tracer pour l\'instant</string>
+    <string name="progress_empty_message">Termine ta première séance pour suivre ta progression exercice par exercice.</string>
+    <string name="progress_change_exercise">Changer d\'exercice</string>
+    <string name="progress_best_one_rm">Meilleur 1RM estimé</string>
+    <string name="progress_best_volume">Volume max / séance</string>
+    <string name="progress_sessions">Séances (%1$d)</string>
+    <string name="progress_no_session_in_range">Aucune séance sur cette période.</string>
+    <string name="progress_per_week">%1$s séance(s) / semaine</string>
+    <string name="progress_session_weight">max %1$s · 1RM ≈ %2$s</string>
+    <string name="progress_session_reps">%1$d reps au total</string>
+    <string name="progress_performed_exercises">Exercices réalisés</string>
+
+    <!-- Statistics -->
+    <string name="stats_empty_title">Les stats arrivent</string>
+    <string name="stats_empty_message">Tes statistiques se rempliront au fil de tes séances.</string>
+    <string name="stats_this_month">Ce mois-ci</string>
+    <string name="stats_average_duration">Durée moyenne</string>
+    <string name="stats_records">Records</string>
+    <string name="stats_weekly_volume">Volume par semaine</string>
+    <string name="stats_last_12_weeks">12 dernières semaines</string>
+    <string name="stats_weekly_workouts">Séances par semaine</string>
+    <string name="stats_top_exercises">Exercices les plus pratiqués</string>
+    <string name="stats_muscle_groups">Groupes musculaires</string>
+    <string name="stats_muscle_groups_hint">Séries effectives sur 30 jours · le plus travaillé : %1$s</string>
+    <string name="stats_all_time">Depuis le début</string>
+    <!-- Word under a big number; French uses the singular for 0 and 1, so "one" without %d is intended. -->
+    <plurals name="workouts_word" tools:ignore="ImpliedQuantity">
+        <item quantity="one">séance</item>
+        <item quantity="many">séances</item>
+        <item quantity="other">séances</item>
+    </plurals>
+
+    <!-- Records -->
+    <string name="records_empty_title">Pas encore de record</string>
+    <string name="records_empty_message">Tes meilleures barres s\'afficheront ici dès tes premières séances.</string>
+    <string name="records_last_time">Dernière fois : %1$s</string>
+    <!-- Brand voice (Fonte) -->
+    <string name="brand_tagline">Soulève. Note. Progresse.</string>
+    <string name="summary_cheer_record">Nouveau record. La barre monte.</string>
+    <!-- One per day on the dashboard. -->
+    <string-array name="home_taglines">
+        <item>On soulève quoi aujourd\'hui ?</item>
+        <item>La fonte ne va pas se soulever toute seule.</item>
+        <item>Une série après l\'autre.</item>
+        <item>Craie, barre, action.</item>
+        <item>Aujourd\'hui, on ajoute une brique.</item>
+        <item>Le plus dur, c\'est de venir. Le reste, c\'est des séries.</item>
+        <item>Pas de raccourci, que des répétitions.</item>
+    </string-array>
+    <!-- End-of-workout line when no record fell. -->
+    <string-array name="summary_cheers">
+        <item>La fonte a parlé.</item>
+        <item>Une brique de plus sur le mur.</item>
+        <item>Bien joué. Maintenant, récupère.</item>
+        <item>Le travail paie, séance après séance.</item>
+        <item>Barre rangée, mission accomplie.</item>
+    </string-array>
+    <!-- Progressive overload -->
+    <string name="action_undo">Annuler</string>
+    <string name="menu_progression">Surcharge progressive</string>
+    <string name="progression_title">Surcharge progressive</string>
+    <string name="progression_subtitle">La charge ou les reps montent d\'une séance à l\'autre.</string>
+    <string name="progression_step">Palier de charge</string>
+    <string name="progression_explain_weight">Quand toutes tes séries atteignent %1$d reps, la charge monte de %2$s et tu repars à %3$d reps. Sinon, vise une rep de plus que la dernière fois, série par série.</string>
+    <string name="progression_explain_weight_generic">Quand toutes tes séries atteignent le haut de la fourchette de reps, la charge monte de %1$s et tu repars en bas de la fourchette. Sinon, vise une rep de plus que la dernière fois, série par série.</string>
+    <string name="progression_explain_reps">À chaque séance, vise une rep de plus par série, jusqu\'à %1$d reps.</string>
+    <string name="progression_explain_reps_generic">À chaque séance, vise une rep de plus par série, jusqu\'au haut de la fourchette de reps.</string>
+    <string name="progression_no_range">Pas de fourchette de reps pour cet exercice : la progression démarre dès qu\'il en a une (ajoute-le à une de tes séances, avec 8 à 12 reps par exemple). En attendant, tes séries reprennent la dernière fois.</string>
+    <string name="progression_weight_applied">+%1$s : %2$d reps sur toutes tes séries la dernière fois</string>
+    <string name="progression_weight_available">Progression possible : %1$s × %2$d</string>
+    <string name="progression_reps_applied">+1 rep par série : %1$s</string>
+    <string name="progression_reps_available">Progression possible : +1 rep par série</string>
+    <!-- Programs (groups of sessions) -->
+    <string name="programs_new_session">Nouvelle séance</string>
+    <string name="programs_new_program">Nouveau programme</string>
+    <string name="programs_new_program_hint">Plusieurs séances</string>
+    <string name="programs_standalone">Séances libres</string>
+    <string name="programs_standalone_hint">Des séances à faire quand tu veux, hors programme.</string>
+    <string name="program_create_manual">Créer mon programme</string>
+    <string name="program_create_manual_hint">Tu ajoutes tes séances, une par jour d\'entraînement</string>
+    <string name="program_create_generate">Générer un programme</string>
+    <string name="program_create_generate_hint">Tu choisis les muscles à prioriser, Fonte construit les séances</string>
+    <string name="program_new_title">Nouveau programme</string>
+    <string name="program_edit_title">Modifier le programme</string>
+    <string name="program_name_label">Nom du programme</string>
+    <string name="program_name_error">Donne un nom au programme</string>
+    <string name="program_notes_label">Description (optionnel)</string>
+    <string name="action_create">Créer</string>
+    <string name="action_generate">Générer</string>
+    <string name="program_next">Prochaine séance</string>
+    <string name="program_day">Jour %1$d</string>
+    <string name="program_day_next">Jour %1$d · prochaine</string>
+    <string name="program_sessions">Séances</string>
+    <string name="program_empty_title">Aucune séance</string>
+    <string name="program_empty_message">Ajoute une séance par jour d\'entraînement : elles s\'enchaînent dans l\'ordre, et la prochaine t\'attend sur l\'accueil.</string>
+    <string name="program_add_session">Ajouter une séance</string>
+    <string name="program_add_existing">Ajouter une séance existante</string>
+    <string name="program_add_existing_title">Ajouter au programme</string>
+    <string name="program_delete_title">Supprimer « %1$s » ?</string>
+    <string name="program_delete_message">Le programme et ses séances seront supprimés. Les séances déjà réalisées restent dans l\'historique.</string>
+    <string name="session_add_to_program">Ajouter à un programme</string>
+    <string name="session_remove_from_program">Retirer du programme</string>
+    <string name="generator_title">Générer un programme</string>
+    <string name="generator_intro">Choisis tes priorités : Fonte construit les séances avec les exercices de ta bibliothèque. Tu pourras tout modifier ensuite.</string>
+    <string name="generator_focus">Muscles à prioriser</string>
+    <string name="generator_focus_hint">Aucun : programme équilibré. Les muscles choisis ont plus d\'exercices et de séries, en début de séance.</string>
+    <string name="generator_focus_only">Seulement ces muscles</string>
+    <string name="generator_focus_only_hint">Toutes les séances se concentrent sur ta sélection.</string>
+    <string name="generator_sessions">Séances par semaine</string>
+    <string name="generator_goal">Objectif</string>
+    <string name="generator_preview">Aperçu</string>
+    <string name="generator_create">Créer le programme</string>
+    <string name="session_kind_full_body">Full body</string>
+    <string name="session_kind_upper">Haut du corps</string>
+    <string name="session_kind_lower">Bas du corps</string>
+    <string name="session_kind_push">Push</string>
+    <string name="session_kind_pull">Pull</string>
+    <string name="session_kind_legs">Jambes</string>
+    <string name="session_kind_focus">Spécialisation</string>
+    <string name="generated_session_variant">%1$s %2$s</string>
+    <string name="generated_program_focus">%1$s · priorité %2$s</string>
+    <string name="generated_program_specialization">Spécialisation %1$s</string>
+    <string name="generated_program_priority">Priorité : %1$s.</string>
+    <!-- Generated program name by sessions per week (1 to 6). -->
+    <string-array name="generated_split_names">
+        <item>Full body</item>
+        <item>Haut / Bas</item>
+        <item>Push Pull Legs</item>
+        <item>Haut / Bas ×2</item>
+        <item>Push Pull Legs + Haut / Bas</item>
+        <item>Push Pull Legs ×2</item>
+    </string-array>
+    <plurals name="count_sessions">
+        <item quantity="one">%1$d séance</item>
+        <item quantity="many">%1$d séances</item>
+        <item quantity="other">%1$d séances</item>
+    </plurals>
+    <plurals name="generated_program_notes">
+        <item quantity="one">%1$s · %2$d séance par semaine.</item>
+        <item quantity="many">%1$s · %2$d séances par semaine.</item>
+        <item quantity="other">%1$s · %2$d séances par semaine.</item>
+    </plurals>
+    <!-- Calendar -->
+    <string name="workouts_tab_calendar">Calendrier</string>
+    <string name="home_calendar">Calendrier</string>
+    <string name="calendar_trained">Séance faite</string>
+    <string name="calendar_previous_month">Mois précédent</string>
+    <string name="calendar_next_month">Mois suivant</string>
+    <string name="calendar_back_to_today">Revenir à aujourd\'hui</string>
+    <string name="calendar_days">Jours</string>
+    <string name="calendar_empty_month">Aucune séance ce mois-ci.</string>
+    <string name="calendar_empty_today">Pas encore de séance aujourd\'hui.</string>
+    <string name="calendar_empty_day">Jour de repos.</string>
+    <string name="calendar_no_streak">Pas de série en cours</string>
+    <string name="calendar_streak_hint">Semaines d\'affilée avec au moins une séance.</string>
+    <string name="calendar_best">Record</string>
+    <plurals name="calendar_streak">
+        <item quantity="one">%1$d semaine d\'affilée</item>
+        <item quantity="many">%1$d semaines d\'affilée</item>
+        <item quantity="other">%1$d semaines d\'affilée</item>
+    </plurals>
+    <plurals name="count_weeks">
+        <item quantity="one">%1$d semaine</item>
+        <item quantity="many">%1$d semaines</item>
+        <item quantity="other">%1$d semaines</item>
+    </plurals>
+</resources>

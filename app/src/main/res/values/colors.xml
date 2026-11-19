@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Mirrors ui/theme/Color.kt for resources drawn before Compose (window, splash, icons, notifications). -->
+    <color name="charcoal">#FF15120F</color>
+    <color name="fonte">#FFFF5A1F</color>
+</resources>
